@@ -1,0 +1,43 @@
+
+.me-title {
+		height: 80px;
+		width: 100%;
+		background-color: rgb(255, 255, 255);
+}
+.me-title view {
+		float: left;
+}
+.me-title-image {
+		width: 60px;
+		height: 60px;
+		margin-top: 10px;
+		margin-left: 20px;
+		overflow: hidden;
+		display: block;
+		border-radius: 5px;
+		-webkit-box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+		        box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+}
+.me-title-nickname {
+		margin: 20px;
+}
+.action-row {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -webkit-flex-direction: row;
+            -ms-flex-direction: row;
+                flex-direction: row;
+        -webkit-box-pack: center;
+        -webkit-justify-content: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+}
+.action-row navigator {
+	    color: #007aff;
+	    padding: 0 20rpx;
+}
+
